@@ -1,0 +1,92 @@
+{
+  "name":"blackstorm ",
+  "description": "an python madhe scanner",
+  "logo": " none ",
+    "keywords": [
+    "telegram",
+    "userbot",
+    "plugin",
+    "modular",
+    "productivity"
+  ],
+  "repository": "https://github.com/theshubhamgundu/SibylX.git",
+  "website": "https://github.com/theshubhamgundu/SibylX.com",
+  "success_url": "htps://blackatormscanner",
+  "env": {
+    "ENV": {
+      "description": "Setting this to ANYTHING will enable heroku.",
+      "value": "ANYTHING"
+    },
+    "TEMP_DOWNLOAD_DIRECTORY": {
+      "description": "Where downloaded files will go.",
+      "value": "./userbot/DOWNLOADS/",
+      "required": false
+    },
+    
+    "API_ID_KEY": {
+      "description": "take from my telegram.org ",
+      "value": "",
+      "required": false
+    },
+     "API_HASH_KEY": {
+      "description": "take from my.telegram.org",
+      "value": "",
+      "required": false
+    },
+    
+    },
+    "STRING_SESSION": {
+      "description": "generate repl .",
+      "value": "",
+      "required": true
+    },
+    "SIBYL": {
+      "description": "none ",
+      "value": "",
+      "required": false
+    },
+    "ENFORCERS": {
+      "description": "sudo users.",
+      "value": "",
+      "required": true
+    },
+    "Sibyl_logs": {
+      "description": "PRIVATE_GROUP_ID.",
+      "value": ""
+    },
+    "Sibyl_approved_logs": {
+      "description": "PRIVATE_GROUP_ID",
+      "value": "",
+      "required": false
+    },
+    "GBAN_MSG_LOGS": {
+      "channel.",
+      "value": "",
+      "required": false
+
+  },
+  "addons": [
+    {
+      "plan": "heroku-postgresql",
+      "options": {
+        "version": "12"
+      }
+    }
+  ],
+  "buildpacks": [
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+  },{
+    "url":"https://github.com/amivin/aria2-heroku.git"
+  },{
+    "url":"https://github.com/heroku/heroku-buildpack-google-chrome"
+  },{
+     "url": "https://github.com/heroku/heroku-buildpack-apt.git"
+  },{
+    "url":"https://github.com/heroku/heroku-buildpack-chromedriver"
+  },{
+    "url": "https://github.com/opendoor-labs/heroku-buildpack-p7zip"
+  },{
+    "url": "heroku/python"
+  }]
+}
