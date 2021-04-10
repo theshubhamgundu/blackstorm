@@ -56,7 +56,7 @@ Sibyl is under active development and some future plans include
 - Improved logging, access and replies strings 
 - Anything else we come up with as this project goes on.
 
-------------
+-------------
 
 ##### Trivia
 - The use of the Sibyl System to determine latent criminals with the help of Crime Coefficients is introduced at some point between 2090 and 2100.
