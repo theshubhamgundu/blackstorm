@@ -30,7 +30,7 @@
     "API_ID_HASH": {
       "description": "Set Custom Alive Message When entering .hell Command.",
       "value": "",
-      "required": false
+      "required": true
     },
     "STRING_SESSION": {
       "description": "Put here any telegraph media link for alive pic in .hell command.",
